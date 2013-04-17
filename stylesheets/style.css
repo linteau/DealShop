@@ -1,0 +1,210 @@
+body{
+	height: 100%;
+	min-height: 100%;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	background-color:gray;
+	font-family:Arial;
+}
+a:link{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:gray !important;
+	text-decoration:none;
+}
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+header{
+	width:100%; 
+	height:105px;  
+	padding:0px;
+	opacity:.8;
+}
+#logo{
+	position:relative;
+	top:0px;
+	left:40px;
+	font-size:35px;
+	font-family:'Loved by the king',cursive;
+	color:white;
+}
+#headerwrapper{
+	margin-right:auto;
+	margin-left:auto;
+	max-width:900px;
+	min-width:700px;
+	
+}
+#navwrapper{
+	position:relative;
+	top:0px;
+	
+}
+#nav{
+	font-family:Arial;
+	color:#E0E0E0;
+}
+#nav a:link{
+	text-decoration:none;
+	color:#E0E0E0;
+}
+#nav a:visited{
+	text-decoration:none;
+	color:#E0E0E0 	;
+}
+#nav li{
+	display:inline;
+	padding:5px;
+}
+
+#selected{
+	color:red;
+}
+
+#dealwrapper{
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:680px;
+	min-width:680px;
+	min-height:700px;
+	background-color:white !important;
+	border-radius:15px 15px;
+	
+	
+}
+.productTile{
+	height:300px;
+	width:300px;
+	padding:20px;
+    float: left;
+	
+}
+.floated_img
+{
+	height:300px;
+	width:300px;
+/*	padding:20px;
+*/    float: left;
+}
+.imgwrapper{
+	margin-left:auto;
+	margin-right:auto;
+}
+.descriptionTile{
+	position:relative;
+	top:200px;
+	height:100px;
+	width:300px;
+	background-color:black;
+	opacity:.8;
+	z-index:1;
+}
+.descriptionTile span.title{
+	position:relative;
+	top:10px;
+	left:10px;
+}
+.descriptionTile span.description{
+	position:relative;
+	top:28px;
+	left:10px;
+}
+#productDetailWrapper{
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:680px;
+	min-width:680px;
+	min-height:340px;
+	background-color:white !important;
+	border-radius:15px 15px;
+}
+#pdrwrapper{
+	position:relative;
+	float:left;
+	height:300px;
+	width:300px;
+margin-top:20px;
+color:black;
+}
+#pdrwrapper span.title{
+	font-size:18px;
+}
+#pdrwrapper div.description{
+	position:relative;
+	float:left;
+	top:70px;
+	font-size:15px;
+	font-style:italic;	
+	
+}
+#pdrwrapper span.discountPrice{
+	position:relative;
+	float:left;
+	top:10px;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	color:orange !important;	
+	
+}
+#pdrwrapper div.button{
+	position:relative;
+	text-align:center;
+	float:left;
+	left:20px;
+	top:10px;
+	background-color:#348BD7;
+	height:30px;
+	width:110px;
+	border-radius:10px 10px;
+	font-size:18px;
+	line-height:30px;
+	
+}
+#pdrwrapper span.description span.title{
+	position:relative;
+	float:left;
+	top:70px;
+	font-size:20px;
+	font-style:bold;	
+	
+}
+#savingMeter{
+	position:relative;
+	top:30px;
+	text-align:center;
+	padding:10px;
+	
+}
+div#savingMeter table tr th{
+	width:100px;
+	color:red;
+	
+}
+#signUp{
+	position:relative;
+	top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	width:170px;
+	font-size:12px;
+}
+div#signUp form input{
+	border-radius:5px;
+	height:25px;
+	width:200px;
+	margin-bottom:10px;
+}
+div#signUp form input#signUpButton{
+	border-radius:5px;
+	height:25px;
+	width:100px;
+	margin-top:10px;
+} 
