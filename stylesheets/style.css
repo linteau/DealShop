@@ -112,7 +112,7 @@ header{
 	height:120px;
 	width:300px;
 	background-color:black;
-	opacity:.8;
+	opacity:.7;
 	z-index:2;
 }
 .descriptionTile span.title{
@@ -124,6 +124,7 @@ header{
 	position:relative;
 	top:15px;
 	left:10px;
+	width:295px;
 	font-size:15px;
 }
 .buttonViewDeal{
