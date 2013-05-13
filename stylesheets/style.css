@@ -7,6 +7,337 @@ body{
 	background-color:gray;
 	font-family:Arial;
 }
+body#productDetails{
+	max-height:400px;
+}
+h2{
+	font-size:23px;
+	font-weight:normal;
+	color:#575757;
+}
+a:link{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:gray !important;
+	text-decoration:none;
+}
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+header{
+	width:100%; 
+	height:105px;  
+	padding:0px;
+	opacity:.8;
+}
+#logo{
+	position:relative;
+	top:0px;
+	left:40px;
+	font-size:35px;
+	font-family:'Loved by the king',cursive;
+	color:white;
+}
+#headerwrapper{
+	margin-right:auto;
+	margin-left:auto;
+	max-width:900px;
+	min-width:700px;
+	
+}
+#navwrapper{
+	position:relative;
+	top:0px;
+	
+}
+#nav{
+	font-family:Arial;
+	color:#E0E0E0;
+}
+#nav a:link{
+	text-decoration:none;
+	color:#E0E0E0;
+}
+#nav a:visited{
+	text-decoration:none;
+	color:#E0E0E0 	;
+}
+#nav li{
+	display:inline;
+	padding:5px;
+}
+
+#selected{
+	color:red;
+}
+#contactWrapper{
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:680px;
+	min-width:680px;
+	height:500px;
+	background-color:#F0E8D0;
+	border-radius:15px 15px;
+}
+.contactImg{
+	height:300px;
+	width:300px;
+	float:left;
+	margin:25px 0 0 25px;
+	border-radius:15px 15px;
+	box-shadow: 7px 7px 3px #888888;
+}
+#contactWrapper div.rightTextBox{
+	position:relative;
+	height:300px;
+	width:300px;
+	float:right;
+	margin:25px 25px 0 0;
+	
+}
+#contactWrapper div.title{
+	position:relative;
+	font-size:20px;
+	padding-bottom:10px;
+	color:black;
+}
+#contactWrapper span.normalText{
+	position:relative;
+	font-size:15px;
+	color:black;
+}
+#contactWrapper div.bottomTextBox{
+	position:relative;
+	height:150px;
+	width:625px;
+	float:left;
+	margin:15px 0 0 25px;	
+}
+#contactWrapper div.leftBottom{
+	position:relative;
+	float:left;
+	width:302px;
+	height:140px;
+	margin:10px 10px 10px 10px;
+}
+#contactWrapper div.rightBottom{
+	position:relative;
+	float:right;
+	width:290px;
+	height:140px;
+	margin-top:10px;
+}
+
+.adverImg{
+	height:366px;
+	width:300px;
+	float:left;
+	margin:25px 0 0 25px;
+	border-radius:15px 15px;
+	box-shadow: 7px 7px 3px #888888;
+}
+#dealwrapper{
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:680px;
+	min-width:680px;
+	min-height:1360px;
+	background-color:white;
+	border-radius:15px 15px;
+}
+#dealwrapperFree{
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:680px;
+	min-width:680px;
+	min-height:680px;
+	background-color:white !important;
+	border-radius:15px 15px;
+}
+.productTile{
+	height:300px;
+	width:300px;
+	padding:20px;
+    float: left;
+	
+}
+.floated_img
+{
+	position:relative;
+	height:300px;
+	width:300px;
+/*	padding:20px;
+*/    float: left;
+	z-index:1;
+}
+.imgwrapper{
+	margin-left:auto;
+	margin-right:auto;
+}
+.descriptionTile{
+	position:relative;
+	top:180px;
+	height:120px;
+	width:300px;
+	background-color:black;
+	opacity:.7;
+	z-index:2;
+}
+.descriptionTile span.title{
+	position:relative;
+	top:10px;
+	left:10px;
+}
+.descriptionTile div.description{
+	position:relative;
+	top:15px;
+	left:10px;
+	width:290px;
+	font-size:15px;
+}
+.buttonViewDeal{
+	position:relative;
+	float:right;
+	top:30px;
+	right:10px;
+	padding:5px;
+	text-align:center;
+	background-color:blue;
+	height:16px;
+	width:80px;
+	border-radius:7px 7px;
+	font-size:16px;
+	line-height:16px;
+	z-index:3;
+	opacity:1;
+	
+}
+.buttonViewDeal:hover{
+	background-color:white;
+	color:black;
+}
+a.viewDeal:link{
+	color:white !important;
+}
+a.viewDeal:visited{
+	color:white !important;
+}
+a.viewDeal:hover{
+	background-color:red;	
+}
+#purchaseDetailWrapper{
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:680px;
+	min-width:680px;
+	height:550px;
+	background-color:white !important;
+	border-radius:15px 15px;
+}
+#productDetailWrapper{
+	margin-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:680px;
+	min-width:680px;
+	min-height:630px;
+	background-color:white !important;
+	border-radius:15px 15px;
+}
+#pdrwrapper{
+	position:relative;
+	float:left;
+	height:300px;
+	width:300px;
+	margin-top:20px;
+	color:black;
+}
+#pdrwrapper span.title{
+	font-size:18px;
+	font-style:normal;
+	margin-bottom:10px;
+}
+#pdrwrapper div.description{
+	position:relative;
+	font-size:15px;
+	font-style:italic;
+	color:gray;	
+	
+}
+.productDetailTitle{
+	font-size:20px;
+	font-style:italic;
+	color:black;
+}
+.description{
+	font-size:17px;
+	font-style:italic;	
+	color:black;
+	font-weight:normal;
+}
+.discountPricePurchase{
+	position:relative;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	color:orange !important;	
+	
+}
+#pdrwrapper span.discountPrice{
+	position:relative;
+	float:left;
+	top:10px;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	color:orange !important;		
+}
+#pdrwrapper div.discountPrice{
+	position:relative;
+	top:10px;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	color:orange !important;		
+}
+#pdrwrapper div.button{
+	position:relative;
+	text-align:center;
+	float:left;
+	left:20px;
+	top:10px;
+	background-color:#348BD7;
+	height:30px;
+	width:110px;
+	border-radius:10px 10px;
+	font-size:18px;
+	font-weight:bold;
+	line-height:30px;
+	opacity:.8;
+}
+#pdrwrapper div.button:hover{
+	opacity:1;
+	color:white;
+	
+}
+#pdrwrapper div.descriptionwrapper{
+	position:relative;
+	top:35px;
+}
+#pdrwrapper div.title{
+	position:relative;
+	font-size:20px;
+}
+body#productDetails{
+	max-height:400px;
+}
 a:link{
 	color:white;
 	text-decoration:none;
@@ -66,26 +397,6 @@ header{
 	color:red;
 }
 
-#dealwrapper{
-	margin-top:10px;
-	margin-right:auto;
-	margin-left:auto;
-	max-width:680px;
-	min-width:680px;
-	min-height:1360px;
-	background-color:white !important;
-	border-radius:15px 15px;
-}
-#dealwrapperFree{
-	margin-top:10px;
-	margin-right:auto;
-	margin-left:auto;
-	max-width:680px;
-	min-width:680px;
-	min-height:680px;
-	background-color:white !important;
-	border-radius:15px 15px;
-}
 .productTile{
 	height:300px;
 	width:300px;
@@ -120,13 +431,6 @@ header{
 	top:10px;
 	left:10px;
 }
-.descriptionTile div.description{
-	position:relative;
-	top:15px;
-	left:10px;
-	width:295px;
-	font-size:15px;
-}
 .buttonViewDeal{
 	position:relative;
 	float:right;
@@ -157,35 +461,16 @@ a.viewDeal:visited{
 a.viewDeal:hover{
 	background-color:red;	
 }
-
-#productDetailWrapper{
-	margin-top:10px;
-	margin-right:auto;
-	margin-left:auto;
-	max-width:680px;
-	min-width:680px;
-	min-height:340px;
-	background-color:white !important;
-	border-radius:15px 15px;
+.productDetailTitle{
+	font-size:20px;
+	font-style:italic;
+	color:black;
 }
-#pdrwrapper{
-	position:relative;
-	float:left;
-	height:300px;
-	width:300px;
-margin-top:20px;
-color:black;
-}
-#pdrwrapper span.title{
-	font-size:18px;
-}
-#pdrwrapper div.description{
-	position:relative;
-	float:left;
-	top:70px;
-	font-size:15px;
+.description{
+	font-size:17px;
 	font-style:italic;	
-	
+	color:black;
+	font-weight:normal;
 }
 .discountPricePurchase{
 	position:relative;
@@ -195,45 +480,73 @@ color:black;
 	color:orange !important;	
 	
 }
-#pdrwrapper span.discountPrice{
+.box1{
 	position:relative;
-	float:left;
-	top:10px;
-	font-size:20px;
-	font-weight:bold;
-	font-style:italic;
-	color:orange !important;		
+	padding:10px;
+	background-color:#F0E8D0;
+	border-radius:10px;
+	width:300px;
+	height:280px;	
+	box-shadow: 7px 7px 3px #888888;
 }
-#pdrwrapper div.button{
+.box2{
 	position:relative;
-	text-align:center;
-	float:left;
+	top:0px;
 	left:20px;
-	top:10px;
-	background-color:#348BD7;
-	height:30px;
-	width:110px;
-	border-radius:10px 10px;
-	font-size:18px;
-	font-weight:bold;
-	line-height:30px;
-	opacity:.8;
+	width:620px;
+	height:255px;
+	background-color:#F0E8D0;
+	padding:10px;
+	border-radius:10px;
+	box-shadow: 7px 7px 3px #888888;
 }
-#pdrwrapper div.button:hover{
-	opacity:1;
-	color:white;
-	
+.box2 span.title{
+	color:#575757;
+	font-size:25px;
+	font-weight:normal;
 }
-#pdrwrapper span.description span.title{
+.box2 ul li{
+	position:relative;
+	right:5px;
+	color:gray;
+	font-size:14px;
+	margin-bottom:5px;
+}
+.leftBox2{
 	position:relative;
 	float:left;
-	top:70px;
-	font-size:20px;
-	font-style:bold;	
+	margin:10px;
+	width:280px;
+	color:gray;
+}
+.rightBox2{
+	position:relative;
+	float:right;
+	margin:10px;
+	width:290px;
+}
+.purchaseBox2{
+	position:relative;
+	top:15px;
+	right:320px; 
+	width:620px;
+	height:180px;
+	background-color:#F0E8D0;
+	padding:10px;
+	border-radius:10px;
+	box-shadow: 7px 7px 3px #888888;	
+}
+.purchaseBox2 span.title{
+	font-size:28px !important;
+	color:red;
+	font-weight:bold;
+}
+.purchaseBox2 ol.text{
+	font-size:14px;
 }
 #savingMeter{
 	position:relative;
-	top:30px;
+	top:25px;
 	text-align:center;
 	padding:10px;
 	
@@ -244,10 +557,10 @@ div#savingMeter table tr th{
 	
 }
 .dealHeading{
-	font-weight:bold;
+	font-weight:normal;
 	font-size:20px;
-/*	opacity:.8;
-*/	color:gray;
+	color:#575757;
+	margin-bottom:10px;
 }
 #signUp{
 	position:relative;
@@ -269,3 +582,76 @@ div#signUp form input#signUpButton{
 	width:100px;
 	margin-top:10px;
 } 
+footer{
+	
+	width:100%;
+	margin-top:10px; 
+	height:60px;  
+	padding:0px;
+	opacity:.8;
+}
+#footerwrapper{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:10px;
+	width:680px;
+}
+
+
+.purchaseBox2 span.title{
+	font-size:28px !important;
+	color:red;
+	font-weight:bold;
+}
+.purchaseBox2 ol.text{
+	font-size:14px;
+	color:#575757;
+}
+#savingMeter{
+	position:relative;
+	top:25px;
+	text-align:center;
+	padding:10px;
+	
+}
+div#savingMeter table tr th{
+	width:100px;
+	color:red;
+	
+}
+#signUp{
+	position:relative;
+	top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	width:170px;
+	font-size:12px;
+}
+div#signUp form input{
+	border-radius:5px;
+	height:25px;
+	width:200px;
+	margin-bottom:10px;
+}
+div#signUp form input#signUpButton{
+	border-radius:5px;
+	height:25px;
+	width:100px;
+	margin-top:10px;
+} 
+footer{
+	
+	width:100%;
+	margin-top:10px; 
+	height:60px;  
+	padding:0px;
+	opacity:.8;
+}
+#footerwrapper{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:10px;
+	width:680px;
+}
